@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.omagrahari.demonobroker.FilterActivity"
+    tools:showIn="@layout/activity_filter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_12">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_4"
+            android:layout_marginTop="@dimen/dimen_8"
+            android:text="@string/apartment_type"
+            android:textColor="@color/gray_title"
+            android:textSize="@dimen/text_18" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_4">
+
+            <TextView
+                android:id="@+id/ap_type_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen_12"
+                android:background="@drawable/filter_unselected_back"
+                android:padding="@dimen/dimen_12"
+                android:text="@string/two_BHK"
+                android:textSize="@dimen/text_14" />
+
+            <TextView
+                android:id="@+id/ap_type_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen_12"
+                android:background="@drawable/filter_unselected_back"
+                android:padding="@dimen/dimen_12"
+                android:text="@string/three_BHK"
+                android:textSize="@dimen/text_14" />
+
+            <TextView
+                android:id="@+id/ap_type_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen_12"
+                android:background="@drawable/filter_unselected_back"
+                android:padding="@dimen/dimen_12"
+                android:text="@string/four_BHk"
+                android:textSize="@dimen/text_14" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_4"
+            android:layout_marginTop="@dimen/dimen_16"
+            android:text="@string/property_type"
+            android:textColor="@color/gray_title"
+            android:textSize="@dimen/text_18" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_4">
+
+            <TextView
+                android:id="@+id/pt_ap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen_12"
+                android:background="@drawable/filter_unselected_back"
+                android:padding="@dimen/dimen_12"
+                android:text="@string/apartment"
+                android:textSize="@dimen/text_14" />
+
+            <TextView
+                android:id="@+id/pt_ih"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen_12"
+                android:background="@drawable/filter_unselected_back"
+                android:padding="@dimen/dimen_12"
+                android:text="@string/independent_house"
+                android:textSize="@dimen/text_14" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/pt_if"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_12"
+            android:background="@drawable/filter_unselected_back"
+            android:padding="@dimen/dimen_12"
+            android:text="@string/independent_floor"
+            android:textSize="@dimen/text_14" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_4"
+            android:layout_marginTop="@dimen/dimen_16"
+            android:text="@string/furnishing"
+            android:textColor="@color/gray_title"
+            android:textSize="@dimen/text_18" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_4">
+
+            <TextView
+                android:id="@+id/f_ff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen_12"
+                android:background="@drawable/filter_unselected_back"
+                android:padding="@dimen/dimen_12"
+                android:text="@string/fully_furnished"
+                android:textSize="@dimen/text_14" />
+
+            <TextView
+                android:id="@+id/f_sf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen_12"
+                android:background="@drawable/filter_unselected_back"
+                android:padding="@dimen/dimen_12"
+                android:text="@string/semi_furnished"
+                android:textSize="@dimen/text_14" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/apply_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="@string/apply_filter"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_18" />
+
+</RelativeLayout>

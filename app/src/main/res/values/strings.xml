@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DemoNoBroker</string>
+
+    <string name="built_up_area">Built up Area</string>
+    <string name="Rs">\u20B9</string>
+    <string name="title_activity_filter">FilterActivity</string>
+
+    <string name="apartment_type">Apartment Type</string>
+    <string name="property_type">Property Type</string>
+    <string name="furnishing">Furnishing</string>
+
+    <string name="two_BHK">2 BHK</string>
+    <string name="three_BHK">3 BHK</string>
+    <string name="four_BHk">4 BHK</string>
+
+    <string name="apartment">Apartment</string>
+    <string name="independent_house">Independent House</string>
+    <string name="independent_floor">Independent Floor</string>
+
+    <string name="fully_furnished">Fully Furnished</string>
+    <string name="semi_furnished">Semi Furnished</string>
+
+    <string name="apply_filter">Apply Filter</string>
+    <string name="filter_by">Filter By</string>
+</resources>
